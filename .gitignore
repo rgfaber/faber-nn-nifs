@@ -1,0 +1,20 @@
+_build/
+_checkouts/
+.rebar3/
+rebar.lock
+erl_crash.dump
+
+# Compiled NIF artifacts (regenerated on build)
+priv/*.so
+priv/*.dylib
+priv/*.dll
+
+# Rust build artifacts
+native/target/
+
+# Editor
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
