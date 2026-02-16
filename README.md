@@ -12,8 +12,8 @@ Add to your `rebar.config`:
 
 ```erlang
 {deps, [
-    {faber_tweann, "0.1.0"},
-    {faber_nn_nifs, {git, "git@github.com:rgfaber/faber-nn-nifs.git", {tag, "0.1.0"}}}
+    {faber_tweann, "~> 1.0"},
+    {faber_nn_nifs, {git, "git@github.com:rgfaber/faber-nn-nifs.git", {tag, "v1.0.0"}}}
 ]}.
 ```
 

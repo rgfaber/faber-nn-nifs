@@ -1,6 +1,6 @@
 {application, faber_nn_nifs, [
     {description, "High-performance Rust NIFs for Faber Neuroevolution (Enterprise)"},
-    {vsn, "0.1.0"},
+    {vsn, "1.0.0"},
     {registered, []},
     {applications, [kernel, stdlib]},
     {env, []},
