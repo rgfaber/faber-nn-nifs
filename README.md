@@ -188,6 +188,13 @@ rebar3 eunit
 - [faber_neuroevolution](https://hex.pm/packages/faber_neuroevolution) - Population-based evolution
 - [faber-ecosystem](https://codeberg.org/rgfaber/faber-ecosystem) - Ecosystem documentation
 
+## Credits & References
+
+These compute kernels accelerate the Faber neuroevolution stack, which stands on Gene Sher's foundational work on neuroevolution in Erlang:
+
+- **Sher, G.I.** (2013). [*Handbook of Neuroevolution Through Erlang*](https://www.springer.com/gp/book/9781461444626). Springer. — the cornerstone text for TWEANN and neuroevolution on the BEAM.
+- **[DXNN2](https://github.com/CorticalComputer/DXNN2)** - Gene Sher's original Erlang TWEANN implementation, the foundation the Faber ecosystem builds on.
+
 ## License
 
 Apache-2.0
