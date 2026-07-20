@@ -1,5 +1,5 @@
 {application, faber_nn_nifs, [
-    {description, "High-performance Rust NIFs for Faber Neuroevolution (Enterprise)"},
+    {description, "DEPRECATED - absorbed into faber_tweann v2.0.0"},
     {vsn, "1.0.0"},
     {registered, []},
     {applications, [kernel, stdlib]},

@@ -1,3 +1,15 @@
+> # DEPRECATED
+>
+> This package was absorbed into **faber_tweann** in faber_tweann v2.0.0
+> (2026-07-20). Depend on `faber_tweann` instead. See [DEPRECATED.md](DEPRECATED.md).
+>
+> **Everything below is retained for history and is inaccurate.** There was no
+> "enterprise edition", only a private repository. The SIMD claims describe
+> plain sequential loops: the crate contains no `std::arch`, no `target_feature`,
+> no `rayon` and no `par_iter`. The 10-15x speedup figures were never backed by
+> a committed measurement, and the faber-tweann README quoted 30-200x for the
+> same code. All such figures are withdrawn.
+
 # faber-nn-nifs
 
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow.svg)](https://buymeacoffee.com/rlefever)
