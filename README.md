@@ -25,7 +25,7 @@ Add to your `rebar.config`:
 ```erlang
 {deps, [
     {faber_tweann, "~> 1.0"},
-    {faber_nn_nifs, {git, "git@codeberg.org:rgfaber/faber-nn-nifs.git", {tag, "v1.0.0"}}}
+    {faber_nn_nifs, {git, "git@github.com:rgfaber/faber-nn-nifs.git", {tag, "v1.0.0"}}}
 ]}.
 ```
 
@@ -198,7 +198,7 @@ rebar3 eunit
 
 - [faber_tweann](https://hex.pm/packages/faber_tweann) - Community edition on hex.pm
 - [faber_neuroevolution](https://hex.pm/packages/faber_neuroevolution) - Population-based evolution
-- [faber-ecosystem](https://codeberg.org/rgfaber/faber-ecosystem) - Ecosystem documentation
+- [faber-ecosystem](https://github.com/rgfaber/faber-ecosystem) - Ecosystem documentation
 
 ## Credits & References
 
